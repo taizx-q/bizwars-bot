@@ -13,7 +13,10 @@ ALLOWED_WEAPONS = {"deagle", "shotgun", "cuntgun", "m4", "м4", "дигл", "ш�
 MAFIA_ROLES = {
     "якз": "Yakuza Mafia",
     "мекс": "Mexican Mafia",
-    "колмб": "Colombian Mafia"
+    "колмб": "Colombian Mafia",
+    "ykz": "Yakuza Mafia",
+    "mex": "Mexican Mafia",
+    "clmb": "Colombian Mafia"
 }
 
 ALLOWED_CHANNEL_ID = 1292859783610765516
