@@ -81,7 +81,7 @@ async def bizwar(ctx, mafia: str = None, location: str = None, duration: str = N
 
     # embed
     embed = disnake.Embed(
-        title="Бизнес-Война",
+        title="Стрела",
         description=(
             f"**Забивает мафия:** {mafia_role_name}\n"
             f"**Локация:** {location}\n"
