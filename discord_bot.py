@@ -19,9 +19,9 @@ MAFIA_ROLES = {
     "clmb": "Colombian Mafia"
 }
 
-ALLOWED_CHANNEL_ID = 1292859783610765516
+ALLOWED_CHANNEL_ID = id kanala zabivov
 
-CLEAR_ROLE_ID = 1292843521828585478
+CLEAR_ROLE_ID = rol dlya clear cmd
 
 @bot.command()
 @commands.has_permissions(manage_messages=True)
@@ -143,4 +143,4 @@ class BizwarView(disnake.ui.View):
         await interaction.response.send_message(f"Вы выбрали: {select.values[0]}", ephemeral=True)
 
 # bot starts
-bot.run("MTI5MDI2Nzg0MTQwODQwNTU2NA.GyDnBh.jEGvEAYSGMKI9Ha8nMPqjJy7nacW0AstM7_GcQ")
+bot.run("your api key")
